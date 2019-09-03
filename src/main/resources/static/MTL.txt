@@ -1,0 +1,70 @@
+it_DATA
+it_STATUS
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:erp="http://hci.cn1.hana.ondemand.com/ERPTOSF/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <erp:posting>
+         <NODE>
+            <RUN_DATE>?</RUN_DATE>
+            <RUN_TIME>?</RUN_TIME>
+            <LAST_MODIFIED>?</LAST_MODIFIED>
+            <USER_ID>?</USER_ID>
+         </NODE>
+      </erp:posting>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+
+EC
+|	拿到leaveMessage和quota
+CPI
+|      通过user_id或LastModifiedDate去call
+HCM
+
+
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dis="http://camel.apache.org/cxf/jaxws/dispatch">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <dis:InvokeOneWay>
+         <dis:RUN_DATE>20190602</dis:RUN_DATE>
+         <dis:RUN_TIME>160000</dis:RUN_TIME>
+         <dis:LAST_MODIFIED>2019-05-17T04:04:00</dis:LAST_MODIFIED>
+         <dis:USER_ID>600128</dis:USER_ID>
+      </dis:InvokeOneWay>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+https://e200269-iflmap.hcisbt.ap1.hana.ondemand.com/cxf/Query_EC_Leave_Data
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:erp="http://hci.cn1.hana.ondemand.com/ERPTOSF/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <erp:posting>
+         <NODE>
+            <RUN_DATE>20190602</RUN_DATE>
+            <RUN_TIME>160000</RUN_TIME>
+            <LAST_MODIFIED>2019-05-17T04:04:00</LAST_MODIFIED>
+            <USER_ID>600128</USER_ID>
+         </NODE>
+      </erp:posting>
+   </soapenv:Body>
+</soapenv:Envelope> 
+
+https://e200269-iflmap.hcisbt.ap1.hana.ondemand.com/http/JSSHK_TIMEMANAGEMENT
+
+
+
+johnswire1-stage
+wpQ0ubTPAZ
+
+
+
+
+EC SF
+之前的账号密码：S0020347112	Abcd1234&
+现在的账号密码：S0019900038   1Z5ZM<OQ3    https://e200125-tmn.hci.ap1.hana.ondemand.com/itspaces/shell/monitoring/Overview
