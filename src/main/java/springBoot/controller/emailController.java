@@ -22,13 +22,20 @@ public class emailController {
 		return "success";
 	}
 	
-	@RequestMapping("")
+	@RequestMapping("/complex")
+	@ResponseBody
 	public String sendAttachmentEmail() {
 		File file = new File("src/main/resources/static/MTL.txt");
-		emailService.sendAttachementEmail("498073785@qq.com", "你好，这是程序自动发的", "今天是个好日子",file);
+		emailService.sendAttachementEmail("498073785@qq.com", "你好，这是带附件的邮件", "abcd",file);
 		return "attachment success";
 	}
 	
+	@RequestMapping("/template")
+	@ResponseBody
+	public String sendTemplateEmail() {
+		emailService.sendTemplateEmail("498073785@qq.com", "模板邮件-test", "info.html");
+		return "template success";
+	}
 	
 	
 }

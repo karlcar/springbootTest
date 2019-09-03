@@ -18,9 +18,9 @@ it_STATUS
 
 
 EC
-|	拿到leaveMessage和quota
+|	锟矫碉拷leaveMessage锟斤拷quota
 CPI
-|      通过user_id或LastModifiedDate去call
+|      通锟斤拷user_id锟斤拷LastModifiedDate去call
 HCM
 
 
@@ -66,5 +66,5 @@ wpQ0ubTPAZ
 
 
 EC SF
-之前的账号密码：S0020347112	Abcd1234&
-现在的账号密码：S0019900038   1Z5ZM<OQ3    https://e200125-tmn.hci.ap1.hana.ondemand.com/itspaces/shell/monitoring/Overview
+之前锟斤拷锟剿猴拷锟斤拷锟诫：S0020347112	Abcd1234&
+锟斤拷锟节碉拷锟剿猴拷锟斤拷锟诫：S0019900038   1Z5ZM<OQ3    https://e200125-tmn.hci.ap1.hana.ondemand.com/itspaces/shell/monitoring/Overview
